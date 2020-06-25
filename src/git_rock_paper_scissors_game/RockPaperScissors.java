@@ -13,9 +13,10 @@ public class RockPaperScissors {
 		int userScore = 0;
 		int computerScore = 0;
 		int choise=0;
-		
+		System.out.println("Welcome to our Game World");
 		
 		while (userScore<5 && computerScore<5) {
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter your choise ");
 		System.out.println("1 Rock  === 2 Paper  === 3 Scissors");
@@ -48,7 +49,7 @@ public class RockPaperScissors {
 		 } else System.out.println("GAME OVER");
 		 
 		}			// end of while loop
-	
+		
 	}				// end of main method
 	
 
@@ -92,5 +93,5 @@ public class RockPaperScissors {
 	
 		return result;	
 	}
-	
+		
 }
